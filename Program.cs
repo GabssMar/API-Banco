@@ -1,4 +1,3 @@
-
 using ProjetoDsin.Endpoints;
 
 namespace ProjetoDsin
@@ -9,30 +8,28 @@ namespace ProjetoDsin
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddDbContext<BancoContext>();
+
             // Adiciona CORS com política liberada para seu front
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("PermitirFrontend", policy =>
                 {
-                    policy.AllowAnyOrigin() // Coloque aqui o endereço do seu front
+                    policy.AllowAnyOrigin()
                           .AllowAnyMethod()
                           .AllowAnyHeader();
                 });
             });
-            
 
-            // Add services to the container.
             builder.Services.AddAuthorization();
 
-            builder.Services.AddDbContext<BancoContext>();
+            // Removido AddDbContext porque o contexto já configura internamente
 
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -40,15 +37,12 @@ namespace ProjetoDsin
             }
 
             app.UseHttpsRedirection();
-
-            // Habilita CORS para as rotas
             app.UseCors("PermitirFrontend");
-
             app.UseAuthorization();
 
-            app.RegistrarEndPointsBancos();
+            app.RegistrarEndPointsBancos(); // Seus endpoints personalizados
 
-            app.UseDeveloperExceptionPage();
+            app.UseDeveloperExceptionPage(); // Mostrar exceções detalhadas
 
             app.Run();
         }

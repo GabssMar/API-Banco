@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guive\\Desktop\\PROJETOS FACULDADE\\ProjetoDsin\\ProjetoDsin\\ProjetoDsin.csproj": {}
+    "C:\\Users\\gabim\\Downloads\\ProjetoDsin\\ProjetoDsin\\ProjetoDsin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guive\\Desktop\\PROJETOS FACULDADE\\ProjetoDsin\\ProjetoDsin\\ProjetoDsin.csproj": {
+    "C:\\Users\\gabim\\Downloads\\ProjetoDsin\\ProjetoDsin\\ProjetoDsin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guive\\Desktop\\PROJETOS FACULDADE\\ProjetoDsin\\ProjetoDsin\\ProjetoDsin.csproj",
+        "projectUniqueName": "C:\\Users\\gabim\\Downloads\\ProjetoDsin\\ProjetoDsin\\ProjetoDsin.csproj",
         "projectName": "ProjetoDsin",
-        "projectPath": "C:\\Users\\guive\\Desktop\\PROJETOS FACULDADE\\ProjetoDsin\\ProjetoDsin\\ProjetoDsin.csproj",
-        "packagesPath": "C:\\Users\\guive\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guive\\Desktop\\PROJETOS FACULDADE\\ProjetoDsin\\ProjetoDsin\\obj\\",
+        "projectPath": "C:\\Users\\gabim\\Downloads\\ProjetoDsin\\ProjetoDsin\\ProjetoDsin.csproj",
+        "packagesPath": "C:\\Users\\gabim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabim\\Downloads\\ProjetoDsin\\ProjetoDsin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\guive\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -54,6 +53,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -71,7 +74,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[8.1.2, )"
             }
           },
           "imports": [
@@ -93,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

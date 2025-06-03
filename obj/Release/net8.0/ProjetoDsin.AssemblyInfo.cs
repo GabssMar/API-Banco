@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoDsin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b826eeef71e98a38c3a43d3d31c60eb42c3ba4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoDsin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoDsin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
