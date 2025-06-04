@@ -6,21 +6,15 @@ namespace ProjetoDsin.Models
     {
         public int Id { get; set; }
 
-        public string Nome { get; set; } = string.Empty;
-        public string Cnh { get; set; } = string.Empty;
-        public string Cpf { get; set; } = string.Empty;
-
         public int IdDadosVeiculo { get; set; }
         public required DadosVeiculo DadosVeiculo { get; set; }
 
         public DadosProprietario() { }
 
-        public DadosProprietario(int id, string nome, string cnh, string cpf)
+        public DadosProprietario(int id, DadosVeiculo dadosVeiculo)
         {
             Id = id;
-            Nome = nome;
-            Cnh = cnh;
-            Cpf = cpf;
+            DadosVeiculo = dadosVeiculo;
         }
     }
 }

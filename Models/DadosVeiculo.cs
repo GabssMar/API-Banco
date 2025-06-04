@@ -14,7 +14,7 @@ namespace ProjetoDsin.Models
         [Required, MaxLength(10)]
         public string Cor { get; set; } = string.Empty;
         [Required]
-        public string Ano { get; set; } = string.Empty;
+        public int Ano { get; set; }
 
         [Required]
         public int IdUsuario { get; set; }
@@ -22,7 +22,7 @@ namespace ProjetoDsin.Models
 
         public DadosVeiculo() { }
 
-        public DadosVeiculo(int id, string placa, string modelo, string fabricante, string cor, string ano)
+        public DadosVeiculo(int id, string placa, string modelo, string fabricante, string cor, int ano)
         {
             Id = id;
             Placa = placa;

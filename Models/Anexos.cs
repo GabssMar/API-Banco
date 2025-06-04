@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
 
-        public string Evidencia { get; set; } = string.Empty;
+        public byte[] Evidencia { get; set; }
         public string Comentarios { get; set; } = string.Empty;
 
         public int IdDadosVeiculo { get; set; }
@@ -12,7 +12,7 @@
 
         public Anexos() { }
 
-        public Anexos(int id, string evidencia, string comentarios, DadosVeiculo dadosVeiculo)
+        public Anexos(int id, byte[] evidencia, string comentarios, DadosVeiculo dadosVeiculo)
         {
             Id = id;
             Evidencia = evidencia;

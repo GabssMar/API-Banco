@@ -481,15 +481,10 @@ C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\scopedcss\bund
 C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\staticwebassets\msbuild.ProjetoDsin.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\staticwebassets\msbuild.ProjetoDsin.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\staticwebassets\msbuild.build.ProjetoDsin.props
-C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProjetoDsin.props
-C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProjetoDsin.props
-C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\ProjetoD.0D578BE4.Up2Date
 C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\ProjetoDsin.dll
 C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\refint\ProjetoDsin.dll
 C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\ProjetoDsin.pdb
 C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\ProjetoDsin.genruntimeconfig.cache
 C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\ref\ProjetoDsin.dll
+C:\Users\gabim\Downloads\ProjetoDsin\ProjetoDsin\obj\Debug\net8.0\staticwebassets.build.json.cache
