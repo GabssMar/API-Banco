@@ -127,6 +127,7 @@ namespace ProjetoDsin.Endpoints
                 if (string.IsNullOrEmpty(cor))
                 {
                     var dadosVeiculoJson = form["DadosVeiculo"];
+                    Console.WriteLine($"Conteúdo bruto de DadosVeiculo: {dadosVeiculoJson}");
                     if (!string.IsNullOrEmpty(dadosVeiculoJson))
                     {
                         try
